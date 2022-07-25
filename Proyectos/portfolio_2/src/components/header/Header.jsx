@@ -12,7 +12,7 @@ const Header = () => {
                         <h1>Alan Daniel Gaona Villa</h1>
                         <h3>Fullstack & Cibersecurity</h3>
                     </div>                
-                    <img src={ME} alt="Me" />   
+                    <img src={ME} alt="Me"/>   
                 </div>    
             </div>            
         </header>
