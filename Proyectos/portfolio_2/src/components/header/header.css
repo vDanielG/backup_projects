@@ -1,58 +1,62 @@
 .me {
-    margin-top: 10rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
 }
 
-.me img{
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    transition: var(--transition);
+.me img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 5px 10px 0px;
+  color: black;
+  transition: var(--transition);
 }
 
-.me img:hover{
-    width: 16rem;
-    height: 16rem;
+.me img:hover {
+  width: 16rem;
+  height: 16rem;
 }
 
 h3 {
-    justify-content: center;
+  justify-content: center;
 }
 
-/*========== MEDIA QUERIES (MEDIA DEVICES) ============*/
 @media screen and (max-width: 1024px) {
-    .me img {
-        width: 10rem;
-        height: 10rem;
-    }
+  .me img {
+    width: 10rem;
+    height: 10rem;
+  }
 
-    .me {
-        left: 1rem;
-    }
-    .titulo {
-        font-size: 0.8rem;
-    }
+  .me {
+    left: 1rem;
+  }
+
+  .titulo {
+    font-size: 0.8rem;
+  }
 }
 
 /*========== MEDIA QUERIES (SMALL DEVICES) ============*/
 @media screen and (max-width: 600px) {
-    .me img {
-        width: 10rem;
-        height: 10rem;
-    }
+  .me img {
+    width: 10rem;
+    height: 10rem;
+  }
 
-    .me img:hover{
-        width: 11rem;
-        height: 11rem;
-    }
+  .me img:hover {
+    width: 11rem;
+    height: 11rem;
+  }
 
-    .me {
-        left: 1rem;
-    }
-    .titulo {
-        font-size: 0.7rem;
-    }
+  .me {
+    left: 1rem;
+  }
+
+  .titulo {
+    font-size: 0.7rem;
+  }
 }
