@@ -12,11 +12,12 @@
 
 :root {
   --color-bg: #0c272d;
-  --color-bg-variant: #172457;
-  --color-primary: #12a9d3;
-  --color-primary-variant: #125cd3;
+  --color-bg-variant: #17574c;
+  --color-primary: #12d382;
+  --color-primary-variant: #32ada3;
   --color-white: #fff;
-  --color-light: rgb(145, 145, 145, 0.6);
+  --color-light: rgba(188, 187, 187, 0.8);
+  --color-icon: rgb(59, 221, 242);
 
   --transition: all 400ms ease;
 
@@ -40,8 +41,14 @@ html {
   display: none;
 }
 
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
 section {
   margin-top: 8rem;
+  padding-top: 3rem;
 }
 
 h1 {
@@ -64,6 +71,33 @@ a {
 
 a:hover {
   color: var(--color-white);
+}
+
+.titulo{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
 
 /*========== MEDIA QUERIES (MEDIUM DEVICES) ============*/

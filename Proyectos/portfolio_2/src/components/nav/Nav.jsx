@@ -1,11 +1,11 @@
-import React from "react";
-import "./nav.css";
-import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
-import { AiOutlineBook } from "react-icons/ai";
-import { RiServiceLine } from "react-icons/ri";
-import { BiMessageSquareDetail } from "react-icons/bi";
-import { useState } from "react";
+import React from "react"
+import "./nav.css"
+import { AiOutlineHome } from "react-icons/ai"
+import { AiOutlineUser } from "react-icons/ai"
+import { AiOutlineBook } from "react-icons/ai"
+import { RiServiceLine } from "react-icons/ri"
+import { BiMessageSquareDetail } from "react-icons/bi"
+import { useState } from "react"
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
