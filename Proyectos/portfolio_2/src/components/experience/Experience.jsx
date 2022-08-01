@@ -8,13 +8,12 @@ import {FaPython} from 'react-icons/fa'
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <section id="experience">      
       <div className="titulo">
         <h3>Habilities</h3>
         <h2>My experience</h2>          
       </div>
-
-      <div className="container experience_container">
+      <div className="container experience_container">        
         <div className="cards">
           <article className="abilitie_card">
             <FaReact className="icon"/>            
@@ -42,9 +41,13 @@ const Experience = () => {
             <small>3+ Years Working</small>
           </article>                                
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam totam aliquam saepe consectetur, molestias ducimus veritatis reprehenderit, dolores, delectus nihil! Magnam animi, ratione iure numquam obcaecati inventore dolorem at dignissimos alias earum, voluptatibus maiores perferendis.
-        <br/>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam totam aliquam saepe consectetur, molestias ducimus veritatis reprehenderit, dolores, delectus nihil! Magnam animi, ratione iure numquam obcaecati inventore dolorem at dignissimos alias earum, voluptatibus maiores perferendis.<br/><br/><a href="#contact" className='btn btn-primary'>Send Message</a></p>
+        <div className="text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam totam aliquam saepe consectetur, molestias ducimus veritatis reprehenderit, dolores, delectus nihil! Magnam animi, ratione iure numquam obcaecati inventore dolorem at dignissimos alias earum, voluptatibus maiores perferendis.</p>
+            
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam totam aliquam saepe consectetur, molestias ducimus veritatis reprehenderit, dolores, delectus nihil! Magnam animi, ratione iure numquam obcaecati inventore dolorem at dignissimos alias earum, voluptatibus maiores perferendis.</p>
+          
+          <a href="#contact" className='btn btn-primary'>Send Message</a>
+        </div>
         
       </div>
 

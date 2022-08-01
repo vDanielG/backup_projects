@@ -9,8 +9,7 @@ const About = () => {
         <h3>About me</h3>
         <h2>My history</h2>
       </div>
-
-      <div className="container info_container">
+      <div className="container info_container">          
         <img src={ME} alt="" />
         <div className="info">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, omnis quod rem beatae ex provident dolore numquam necessitatibus hic minus cupiditate veniam quo quasi, aspernatur ullam unde maiores illum labore, culpa nisi quia blanditiis.Nisi.</p>

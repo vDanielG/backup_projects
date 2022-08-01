@@ -20,18 +20,31 @@
 }
 
 .me img:hover {
-  width: 16rem;
-  height: 16rem;
+  width: 15.5rem;
+  height: 15.5rem;
 }
 
 h3 {
   justify-content: center;
 }
 
+.title {
+  transition: var(--transition);
+}
+
+.title:hover {
+  text-shadow: 2px 10px 5px #000;
+}
+
 @media screen and (max-width: 1024px) {
   .me img {
     width: 10rem;
     height: 10rem;
+  }
+
+  .me img:hover {
+    width: 10.5rem;
+    height: 10.5rem;
   }
 
   .me {
@@ -51,8 +64,8 @@ h3 {
   }
 
   .me img:hover {
-    width: 11rem;
-    height: 11rem;
+    width: 10.5rem;
+    height: 10.5rem;
   }
 
   .me {
