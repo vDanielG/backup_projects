@@ -8,7 +8,7 @@ const Services = () => {
         <h2>Services</h2>
       </div>
       <div className="container services_container">
-
+        
       </div>
     </section>
   )

@@ -7,7 +7,7 @@ import {BsYoutube} from 'react-icons/bs'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer_logo'>LOGO</a>
+      <a href="#" className='footer_logo'>KIWI</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
 
       <div className="footer_copyright">
-        <small>&copy;LOGO. All rights reserved.</small>
+        <small>&copy;KIWI. All rights reserved.</small>
       </div>
     </footer>
   )
