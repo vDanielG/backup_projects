@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
 
       <div className="footer_copyright">
-        <small>&copy;KIWI. All rights reserved.</small>
+        <small>&copy;KIWI Dev. All rights reserved 2022.</small>
       </div>
     </footer>
   )
