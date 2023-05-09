@@ -1,0 +1,102 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "María",
+      "apellido": "García",
+      "edad": 25,
+      "email": "maria.garcia@example.com",
+      "telefono": "555-1234-5678",
+      "ciudad": "Madrid",
+      "pais": "España"
+    },
+    {
+      "id": 2,
+      "nombre": "Pedro",
+      "apellido": "Martínez",
+      "edad": 32,
+      "email": "pedro.martinez@example.com",
+      "telefono": "555-5678-9012",
+      "ciudad": "Barcelona",
+      "pais": "España"
+    },
+    {
+      "id": 3,
+      "nombre": "Ana",
+      "apellido": "Ruiz",
+      "edad": 27,
+      "email": "ana.ruiz@example.com",
+      "telefono": "555-9012-3456",
+      "ciudad": "Valencia",
+      "pais": "España"
+    },
+    {
+      "id": 4,
+      "nombre": "Juan",
+      "apellido": "López",
+      "edad": 30,
+      "email": "juan.lopez@example.com",
+      "telefono": "555-3456-7890",
+      "ciudad": "Sevilla",
+      "pais": "España"
+    },
+    {
+      "id": 5,
+      "nombre": "Carla",
+      "apellido": "Gómez",
+      "edad": 28,
+      "email": "carla.gomez@example.com",
+      "telefono": "555-7890-1234",
+      "ciudad": "Bilbao",
+      "pais": "España"
+    },
+    {
+      "id": 6,
+      "nombre": "Miguel",
+      "apellido": "Fernández",
+      "edad": 35,
+      "email": "miguel.fernandez@example.com",
+      "telefono": "555-2345-6789",
+      "ciudad": "Barcelona",
+      "pais": "España"
+    },
+    {
+      "id": 7,
+      "nombre": "Sofía",
+      "apellido": "Pérez",
+      "edad": 24,
+      "email": "sofia.perez@example.com",
+      "telefono": "555-6789-0123",
+      "ciudad": "Madrid",
+      "pais": "España"
+    },
+    {
+      "id": 8,
+      "nombre": "Javier",
+      "apellido": "González",
+      "edad": 29,
+      "email": "javier.gonzalez@example.com",
+      "telefono": "555-0123-4567",
+      "ciudad": "Sevilla",
+      "pais": "España"
+    },
+    {
+      "id": 9,
+      "nombre": "Lucía",
+      "apellido": "Rodríguez",
+      "edad": 26,
+      "email": "lucia.rodriguez@example.com",
+      "telefono": "555-4567-8901",
+      "ciudad": "Valencia",
+      "pais": "España"
+    },
+    {
+      "id": 10,
+      "nombre": "Pablo",
+      "apellido": "Sánchez",
+      "edad": 31,
+      "email": "pablo.sanchez@example.com",
+      "telefono": "555-0123-4567",
+      "ciudad": "Sevilla",
+      "pais": "España"
+     }]}
